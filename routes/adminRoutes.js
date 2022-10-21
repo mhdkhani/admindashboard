@@ -1,10 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcrypt');
-const passport = require('passport');
 const Helper = require("../helper/data");
 const {ensureAuthenticated} = require("../../../config/auth.js")
-const adminController = require('../controllers/adminController');
 
 //login form
 router.get('/login',adminController.adminLoginPage);

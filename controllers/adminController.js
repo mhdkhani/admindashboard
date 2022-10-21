@@ -1,5 +1,4 @@
 const Helper = require("../helper/data");
-const passport = require('passport');
 const bcrypt = require('bcrypt');
 const session = require('express-session');
 

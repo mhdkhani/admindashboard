@@ -18,7 +18,7 @@ module.exports.findView = function (fileName) {
  */
 module.exports.isAdminLoggedIn = function (req) {
     var flag = false;
-    if (req.session.current_admin) {
+    if (req.session && req.session.current_admin) {
         flag = true;
     }
     return flag;
