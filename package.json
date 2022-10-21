@@ -1,0 +1,25 @@
+{
+  "name": "admindashboard",
+  "version": "1.0.0",
+  "description": "an dashboad panel for admin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhdkhani/admindashboard.git"
+  },
+  "keywords": [
+    "adminpanel",
+    "dashboard",
+    "admin",
+    "Session"
+  ],
+  "author": "mahdi khani (khaniii.mahdi@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhdkhani/admindashboard/issues"
+  },
+  "homepage": "https://github.com/mhdkhani/admindashboard#readme"
+}
