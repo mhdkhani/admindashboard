@@ -1,6 +1,6 @@
 {
   "name": "admindashboardpanel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "an dashboard panel for admin.",
   "main": "index.js",
   "scripts": {
