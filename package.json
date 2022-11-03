@@ -1,6 +1,6 @@
 {
   "name": "admindashboardpanel",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "an dashboard panel for admin.",
   "main": "index.js",
   "scripts": {
@@ -19,15 +19,18 @@
   "author": "mahdi khani (khaniii.mahdi@gmail.com)",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "bootstrap": "^5.1.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "bootstrap": "^5.2.2",
     "connect-flash": "^0.1.1",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
-    "express-session": "^1.17.2",
-    "jquery": "^3.6.0",
-    "mongoose": "^5.13.7"
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "jquery": "^3.6.1",
+    "mongoose": "^6.7.1"
   },
   "bugs": {
     "url": "https://github.com/mhdkhani/admindashboard/issues"

@@ -71,7 +71,7 @@ const adminAuthebticate = async (email, password) => {
          return response;
     }).catch(err => {
         response['flag'] = false;
-        response['msg'] = msg;
+        response['msg'] = err.message;
          return response;
     });
 };
