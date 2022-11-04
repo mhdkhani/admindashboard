@@ -19,15 +19,6 @@ app.use(bp.json());
 app.use(bp.urlencoded({ extended: true }));
 app.use(flash());
 require('admindashboardpanel')(app)
-
-
-
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
-
-
-const mongoConnection = mongoose.connect('mongodb://127.0.0.1/panel',{useNewUrlParser: true, useUnifiedTopology : true})
-    .then(() => console.log('connected'))
-    .catch((err)=> console.log(err));
-module.exports = mongoConnection;
