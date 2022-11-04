@@ -4,10 +4,7 @@ const path = require('path');
 const Helper = require("./helper/data");
 const mongoose = require("mongoose");
 module.exports = function(app){
-    const mongoConnection = mongoose.connect('mongodb://127.0.0.1/panel',{useNewUrlParser: true, useUnifiedTopology : true})
-        .then(() => console.log('connected to mongo'))
-        .catch((err)=> console.log(err));
-    module.exports = mongoConnection;
+    const connection = require("./db/connect");
     app.use('/css', express.static(path.join(__dirname, 'assets/css')))
     app.use('/plugins', express.static(path.join(__dirname, 'assets/plugins')))
     app.use('/js', express.static(path.join(__dirname, 'assets/js')))
