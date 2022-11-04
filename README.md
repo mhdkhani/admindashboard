@@ -3,6 +3,7 @@ Currently, this panel is in Farsi and RLT
 Installation:
 # step 1
 Install dependencies
+<br/>
 npm i bcrypt bootstrap connect-flash ejs express express-ejs-layouts express-session express-flash body-parser cookie-parser jquery mongodb mongoose
 # step 2
 isntall package
